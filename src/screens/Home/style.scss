@@ -1,0 +1,33 @@
+.home-wrap {
+  padding: 30px 0;
+
+  .home-tools {
+    &__title {
+      font-size: 20px;
+    }
+    &__input-group {
+      margin: 10px 0;
+    }
+    &__action-group {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .home-result {
+    margin-top: 50px;
+
+    &__tabs {
+      margin-bottom: 20px;
+
+      &-item {
+        padding: 5px 20px;
+        height: 30px;
+      }
+    }
+  }
+  .input-url {
+    padding: 0 7px;
+    height: 30px;
+    min-width: 400px;
+  }
+}
