@@ -17,11 +17,14 @@
     margin-top: 50px;
 
     &__tabs {
-      margin-bottom: 20px;
+      margin: 20px 0;
+      display: flex;
 
-      &-item {
-        padding: 5px 20px;
-        height: 30px;
+      .dropdown-wrap {
+        margin-right: 30px;
+      }
+      .dropdown-wrap:last-child {
+        margin-right: 0;
       }
     }
   }
